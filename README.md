@@ -15,5 +15,3 @@ The retrieval process is:
 - returns 5 similar matches
 
 The received chunks are then added to the prompt and the LLM now has the relevant data. Instead of relying on memory is relies on documents and LLM reasoning. 
-
-The RAG doesn't 
