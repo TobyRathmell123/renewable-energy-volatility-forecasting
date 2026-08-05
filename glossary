@@ -1,0 +1,46 @@
+renewable-energy-volatility-forecasting/
+
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── LICENSE
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── external/
+│
+├── notebooks/
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_feature_engineering.ipynb
+│   ├── 03_baseline_models.ipynb
+│   └── 04_model_evaluation.ipynb
+│
+├── src/
+│   ├── data_collection/
+│   │   └── collect_data.py
+│   │
+│   ├── preprocessing/
+│   │   └── features.py
+│   │
+│   ├── models/
+│   │   ├── baseline.py
+│   │   ├── xgboost_model.py
+│   │   └── lstm_model.py
+│   │
+│   ├── rag/
+│   │   ├── embeddings.py
+│   │   ├── retriever.py
+│   │   └── chatbot.py
+│   │
+│   └── utils/
+│
+├── models/
+│   └── saved_models/
+│
+├── app/
+│   └── dashboard.py
+│
+└── reports/
+    └── figures/
