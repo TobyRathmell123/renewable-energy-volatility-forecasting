@@ -1,0 +1,21 @@
+In the first step of this project I have created the repository, fully set it up and made a readme page. 
+I have imported some data from blackrocks ICLN ticker which which is iShares Global Clean Energy Etf. 
+I used this data set as it was publically available and fits my projects needs. 
+
+Questions to answer: 
+
+How has ICLN changed over time?
+
+Generally ICLN has decreased 32.05% over all time as of 05/08/2026 and showed peaks during covid times. 
+
+Are there periods of unusually high volatility?
+
+There were periods of high volatility after first starting to publically trade between 2008-2009 and then again during covid times. 
+
+What does the distribution of daily returns look like?
+
+After the initial decrease upon becoming public the stock shows general stability in daily returns and after a time of uncertainty during covid returned to a relatively consistent daily returns trend. 
+
+Is the volatility increasing or decreasing over time?
+
+Volatility is currently decreasing 
